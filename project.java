@@ -2,7 +2,7 @@ public class project {
     public static void main(String[] args) {
         String name = "cleopas";
         System.out.println("hello world");
-        System.out.println("the number of characters in name is  " + name.length());
+        System.out.println("the number of characters in the word is  " + name.length());
         System.out.println(name.toUpperCase());
 
         int myAge = 82;
@@ -21,7 +21,9 @@ public class project {
         String[] cars = { "an", "bn", "cn", "dn" };
         for (int i = 0; i < cars.length; i++){
             System.out.println(cars[i]);
+        
         }
+
 
     }
 }
