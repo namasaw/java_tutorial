@@ -7,7 +7,7 @@ public class project {
 
     public static void main(String[] args) {
         
-
+        //this comment is usedto check if changes have been made in the git repository
          //project myObj2 = new project();
         //setting the values
         //myObj2.age(45);
