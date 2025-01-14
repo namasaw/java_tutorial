@@ -1,11 +1,44 @@
-
+import java.util.Scanner;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Collections;
 public class project {
 
     int x = 64;
 
-
-
     public static void main(String[] args) {
+          int age =callArray();
+
+            School lugulu=new School();
+            lugulu.setSchoolLocation("BUNGOMA");
+            System.out.println(lugulu.getSchoolLocation());
+            
+
+
+        
+            ArrayList<String> bikes=new ArrayList<String>();
+            bikes.add("tvs");
+            bikes.add("bajaj");
+            System.out.println(bikes);
+            System.out.println(bikes.get(1));
+            bikes.set(0,"boxer");
+            System.out.println(bikes.get(0));
+            Collections.sort(bikes);
+            for(String i:bikes)
+            System.out.println(i) ;
+
+    
+        
+    
+        //local date time class with now method implemented
+        //LocalDateTime myObj4=LocalDateTime.now();
+        //System.out.println(myObj4);
+        //scanner class implemeented
+       // Scanner myObj3 = new Scanner(System.in);
+    System.out.println("enter username");
+    //String userName=myObj3.nextLine();
+    //System.out.println("username is "+userName);
+    
         
         //this comment is usedto check if changes have been made in the git repository
          //project myObj2 = new project();
@@ -60,7 +93,7 @@ public class project {
 
         Car volvo = new Car("volvo");
         volvo.setColor("green");
-        volvo.setEngine(volvoEngine);
+       // volvo.setEngine(volvoEngine);
 
         System.out.println("the color of our volvo is "+ volvo.getColor());
 
